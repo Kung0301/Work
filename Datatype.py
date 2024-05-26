@@ -1,0 +1,8 @@
+print("Welcome to isekai shop")
+print("----------------------")
+print("sword x", 3, 30, "THB", "=", 3*30, "THB")
+print("bow x", 2, 40, "THB", "=", 2*40, "THB")
+print("arrow x", 20, 5, "THB", "=", 20*5, "THB" )
+print("potion x", 4, 30, "THB", "=", 4*30, "THB")
+print("---------------------- ")
+print("Total ="--------------------------------------------90+80+100+120, "THB")
