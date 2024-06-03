@@ -1,20 +1,18 @@
+system_menu = {"egg":10,"meat":20,"fruit":40}
 menuList = []
-priceList = []
 def showBill():
     totalPrice = 0
     print("---- My Food----")
     for number in range(len(menuList)):
-        print(menuList[number], priceList[number])
-        totalPrice += int(priceList[number])
-    print("Total :", totalPrice)
+        print(menuList[number][0],menuList[number][1])
+        totalPrice += int(menuList[number][1])
+    print("total price :",totalPrice)
 
 while True:
     menuName = input("Plese Enter Menu :")
     if (menuName.lower() == "exit"):
         break
     else:
-        menuPrice = input("Price :")
-        menuList.append(menuName)
-        priceList.append(menuPrice)
+        menuList.append([menuName,system_menu[menuName]])
 
 showBill()
