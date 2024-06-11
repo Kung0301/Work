@@ -9,6 +9,5 @@ class Cat(Animal) :
     def eat(self):
        print("Meoww", self.name)
 cat1 = Cat()
-cat1.name = "TT"
-print(cat1.__name)
+cat1.setName("Kitty")
 cat1.eat()
