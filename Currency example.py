@@ -1,3 +1,3 @@
-from currency_rate.converter import Converter
-converter = Converter()
-converter.rate('USD', 'GEL')
+from currency_converter import CurrencyConverter
+c = CurrencyConverter()
+print(c.convert(100, 'EUR', 'USD'))
